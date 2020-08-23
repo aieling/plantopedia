@@ -7,7 +7,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/aieling/plantopedia">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="README_images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">PlantoPedia</h3>
@@ -70,30 +70,30 @@ In the section **Exploring > Explore**, you will find a page with an image and a
 The firebase configuration is given in the HTML pages inside the script tag. <br>
 By clicking in the "Learn more", you will have more information about the species in a modal tag.
 
-[![Product Name Screen Shot][product-screenshot]](images/screenshot.jpg)
+[![Product Name Screen Shot][product-screenshot]](README_images/screenshot.jpg)
 
 <hr>
 
 You will find a page named **Authentication** accessible via the navigator in the link "Login". 
 To be connected in this application, you have to use this username : "test@gmail.com" and the password is "123456".
 
-[![Login Name Screen Shot][login-screenshot]](images/login.jpg)
+[![Login Name Screen Shot][login-screenshot]](README_images/login.jpg)
 
 <hr>
 
 In the **Contact** page, you can send a message, the username and the email is required.
 
-[![Contact Name Screen Shot][contact-screenshot]](images/contact.jpg)
+[![Contact Name Screen Shot][contact-screenshot]](README_images/contact.jpg)
 
 <hr>
 
 In the **Resource** page (Exploring > Resource), there's a video accessible directly in the website using the tag '<iframe>', there's also two types of table, one using bootstrap, and the other one using a personalized CSS and using a javascript form of collections.<br>
-[![Ressource Name Screen Shot][ressource-screenshot]](images/ressource.jpg)
+[![Ressource Name Screen Shot][ressource-screenshot]](README_README_images/ressource.jpg)
 
 <hr>
 
-In the **home** page, there's a carrousel developed with Bootstrap, which displayed 3 images that can help the user to navigate in the website. 
-[![Index Name Screen Shot][index-screenshot]](images/index.jpg)
+In the **home** page, there's a carrousel developed with Bootstrap, which displayed 3 README_images that can help the user to navigate in the website. 
+[![Index Name Screen Shot][index-screenshot]](README_images/index.jpg)
 
 
 <!-- CONTRIBUTING -->
@@ -124,12 +124,12 @@ Project Link: [https://github.com/aieling/plantopedia](https://github.com/aielin
 * [PNAS](www.pnas.org)
 
 
-<!-- MARKDOWN LINKS & IMAGES -->
+<!-- MARKDOWN LINKS & README_images -->
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/helenekev
-[product-screenshot]: images/screenshot.jpg
-[contact-screenshot]: images/contact.jpg
-[login-screenshot]: images/login.jpg
-[ressource-screenshot]: images/ressource.jpg
-[index-screenshot]: images/index.jpg
+[product-screenshot]: README_images/screenshot.jpg
+[contact-screenshot]: README_images/contact.jpg
+[login-screenshot]: README_images/login.jpg
+[ressource-screenshot]: README_images/ressource.jpg
+[index-screenshot]: README_images/index.jpg
