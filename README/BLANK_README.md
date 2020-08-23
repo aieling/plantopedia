@@ -65,7 +65,7 @@ git clone https://github.com/aieling/plantopedia.git
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-This website has for objective to present some plant species and describe their specifications. <br>
+This website has for objective to present some plant species and describe their specifications. <br> <br>
 In the section **Exploring > Explore**, you will find a page with an image and a description of species extracted from a database hosted by firebase. 
 The firebase configuration is given in the HTML pages inside the script tag. <br>
 By clicking in the "Learn more", you will have more information about the species in a modal tag.
@@ -84,11 +84,15 @@ To be connected in this application, you have to use this username : "test@gmail
 In the **Contact** page, you can send a message, the username and the email is required.
 
 [![Contact Name Screen Shot][contact-screenshot]](images/contact.jpg)
+
 <hr>
-In the **Ressource** page (Exploring > Resource), there's a video accessible directly in the website using the tag '<iframe>', there's also two types of table, one using bootstrap, and the other one using a personalized CSS and using a javascript form of collections.
+
+In the **Resource**</strong> page (Exploring > Resource), there's a video accessible directly in the website using the tag '<iframe>', there's also two types of table, one using bootstrap, and the other one using a personalized CSS and using a javascript form of collections.<br>
 [![Ressource Name Screen Shot][ressource-screenshot]](images/ressource.jpg)
 
-In the home page, there's a carrousel developed with Bootstrap, which displayed 3 images that can help the user to navigate in the website. 
+<hr>
+
+In the **home** page, there's a carrousel developed with Bootstrap, which displayed 3 images that can help the user to navigate in the website. 
 [![Index Name Screen Shot][index-screenshot]](images/index.jpg)
 
 
