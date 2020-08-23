@@ -83,17 +83,17 @@ The firebase configuration is given in the HTML pages inside the script tag.
 You will find a page named "Authentication" accessible via the navigator in the link "Login". 
 To be connected in this application, you have to use this username : "test@gmail.com" and the password is "123456".
 
-[![Product Name Screen Shot][product-screenshot]](images/login.jpg)
+[![Login Name Screen Shot][login-screenshot]](images/login.jpg)
 
 In the Contact page, you can send a message, the username and the email is required.
 
-[![Product Name Screen Shot][product-screenshot]](images/contact.jpg)
+[![Contact Name Screen Shot][contact-screenshot]](images/contact.jpg)
 
 In the ressource page (Exploring > Ressource), there's a video accessible directly in the website using the tag '<iframe>', there's also two types of table, one using bootstrap, and the other one using a personalized CSS and using a javascript form of collections.
-[![Product Name Screen Shot][product-screenshot]](images/ressource.jpg)
+[![Ressource Name Screen Shot][ressource-screenshot]](images/ressource.jpg)
 
 In the home page, there's a carrousel developed with Bootstrap, which displayed 3 images that can help the user to navigate in the website. 
-[![Product Name Screen Shot][product-screenshot]](images/index.jpg)
+[![Index Name Screen Shot][index-screenshot]](images/index.jpg)
 
 
 <!-- CONTRIBUTING -->
@@ -129,3 +129,7 @@ Project Link: [https://github.com/aieling/plantopedia](https://github.com/aielin
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/helenekev
 [product-screenshot]: images/screenshot.jpg
+[contact-screenshot]: images/contact.jpg
+[login-screenshot]: images/login.jpg
+[resource-screenshot]: images/resource.jpg
+[index-screenshot]: images/index.jpg
