@@ -1,20 +1,56 @@
+/* Web Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 body{
     background-color: #F6F6F6;
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
-   
 }
+
+
+
+/* Header */
+/* Carousel index Page */
+.carousel {
+    padding-top: 150px;
+    width:70%;
+    margin: auto;
+}
+#welcome-image{
+    height: 600px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.navbar-collapse{
+    margin-left: 70%;
+}
+
+
+/* Footer */
+footer {
+    background-color: #8fc0a9;
+    color: white;
+}
+
+.footer-copyright {
+    background-color: #68b0ab;
+}
+
 #logo{
     height: 100px;
 }
+
+
+
+
 
 #main-content{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
+
 #content{
     padding-top: 30px;
     background-color: white;
@@ -23,27 +59,6 @@ body{
     margin-left: auto;
     margin-right: auto;
     padding: 50px;  
-}
-
-.card-content{
-    padding-top: 30px;
-    background-color: white;
-    width: 70%;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 50px;  
-}
-
-.card{
-    margin: 10px;
-}
-
-h1{
-    text-align: center;
-    padding-top: 30px;
-    font-size: 4em;
-    color:#68b0ab;
 }
 
 #content-contact{
@@ -65,37 +80,65 @@ h1{
 }
 
 
-
-#welcome-image{
-    height: 600px;
-    margin: auto;
-    border-radius: 10px;
+/* Card elements */
+.card-content{
+    padding-top: 30px;
+    background-color: white;
+    width: 70%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;  
 }
 
-.carousel {
-    padding-top: 150px;
-    width:70%;
-    margin: auto;
-  }
-
-
-footer {
-    background-color: #8fc0a9;
-    color: white;
-  }
-
-.footer-copyright {
-    background-color: #68b0ab;
+.card{
+    margin: 10px;
 }
 
-li{
-    list-style-type: none;
+.card-img-top{
+    height: 200px;
+}
+
+/* General */
+
+
+h1{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 4em;
+    color:#68b0ab;
+}
+#content>h3{
+    color: #c8d5b9;
 }
 
 a{
     color: white;
 }
 
+a:hover {
+    background-color: #68b0ab;
+}
+
+a[target="_blank"] {
+    text-decoration: none;
+}
+
+.card-content>h1{
+    font-weight: 900;
+}
+
+p{
+    text-align: justify;
+}
+
+p::first-letter {
+    font-size: xx-large;
+}
+
+li{
+    list-style-type: none;
+}
 
 .youtube-videos{
     display: block;
@@ -105,6 +148,12 @@ a{
     margin-bottom: 40px;
 }
 
-.card-img-top{
-    height: 200px;
-}
+
+
+
+
+
+
+
+
+
