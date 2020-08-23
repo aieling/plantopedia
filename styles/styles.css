@@ -148,12 +148,10 @@ li{
     margin-bottom: 40px;
 }
 
+#tbl{
+    border: 1px solid black;
+}
 
-
-
-
-
-
-
-
-
+.cell{
+    border: 1px solid black;
+}

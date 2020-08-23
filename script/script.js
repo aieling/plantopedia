@@ -96,6 +96,53 @@ function loadData() {
     });
 }
 
+
+let ressources = [
+    {
+        id:1,
+        website: 'https://www.sciencenews.org/',
+        description:'Independent Journalism since 1921'
+    },
+    {
+        id:2,
+        website: 'https://www.sciencemag.org/news/latest-news',
+        description:'Non profit journalism'
+    },
+    {
+        id:3,
+        website: 'https://www.sciencenewsforstudents.org/',
+        description:'Sciences News for students'
+    },
+
+]
+
+
+function addCell(tr, val) {
+    var td = document.createElement('td');
+
+    td.innerHTML = val;
+    td.setAttribute("class","cell");
+    tr.appendChild(td)
+  }
+
+  function addRow(tbl, val_1, val_2, val_3) {
+    var tr = document.createElement('tr');
+    addCell(tr, val_1);
+    addCell(tr, val_2);
+    addCell(tr, val_3);
+
+    tbl.appendChild(tr)
+  }
+
+  function main() {
+    tbl = document.getElementById('tbl');
+
+    for(el of ressources){
+        addRow(tbl,el.id,el.website,el.description);
+    }
+  }
+
+
 // Function to create a common modal foreach card using bootstrap, specific index 
 function createModalModel(index) {
     let modal = '<img class="card-img-top" id="img' + index + '" src="" alt="Card image cap">' +
