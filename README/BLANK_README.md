@@ -67,22 +67,27 @@ git clone https://github.com/aieling/plantopedia.git
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-This website has for objective to present some plant species and describe their specifications. 
-In the section Exploring > Explore, you will find a page with an image and a description of species extracted from a database hosted by firebase. 
-The firebase configuration is given in the HTML pages inside the script tag.
+This website has for objective to present some plant species and describe their specifications. <br>
+In the section **Exploring > Explore**, you will find a page with an image and a description of species extracted from a database hosted by firebase. 
+The firebase configuration is given in the HTML pages inside the script tag. <br>
+By clicking in the "Learn more", you will have more information about the species in a modal tag.
 
 [![Product Name Screen Shot][product-screenshot]](images/screenshot.jpg)
 
-You will find a page named "Authentication" accessible via the navigator in the link "Login". 
+<hr>
+
+You will find a page named **Authentication** accessible via the navigator in the link "Login". 
 To be connected in this application, you have to use this username : "test@gmail.com" and the password is "123456".
 
 [![Login Name Screen Shot][login-screenshot]](images/login.jpg)
 
-In the Contact page, you can send a message, the username and the email is required.
+<hr>
+
+In the **Contact** page, you can send a message, the username and the email is required.
 
 [![Contact Name Screen Shot][contact-screenshot]](images/contact.jpg)
-
-In the ressource page (Exploring > Ressource), there's a video accessible directly in the website using the tag '<iframe>', there's also two types of table, one using bootstrap, and the other one using a personalized CSS and using a javascript form of collections.
+<hr>
+In the **Ressource** page (Exploring > Resource), there's a video accessible directly in the website using the tag '<iframe>', there's also two types of table, one using bootstrap, and the other one using a personalized CSS and using a javascript form of collections.
 [![Ressource Name Screen Shot][ressource-screenshot]](images/ressource.jpg)
 
 In the home page, there's a carrousel developed with Bootstrap, which displayed 3 images that can help the user to navigate in the website. 
