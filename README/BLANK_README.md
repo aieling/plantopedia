@@ -87,7 +87,7 @@ In the **Contact** page, you can send a message, the username and the email is r
 
 <hr>
 
-In the **Resource**</strong> page (Exploring > Resource), there's a video accessible directly in the website using the tag '<iframe>', there's also two types of table, one using bootstrap, and the other one using a personalized CSS and using a javascript form of collections.<br>
+In the **Resource** page (Exploring > Resource), there's a video accessible directly in the website using the tag '<iframe>', there's also two types of table, one using bootstrap, and the other one using a personalized CSS and using a javascript form of collections.<br>
 [![Ressource Name Screen Shot][ressource-screenshot]](images/ressource.jpg)
 
 <hr>
@@ -131,5 +131,5 @@ Project Link: [https://github.com/aieling/plantopedia](https://github.com/aielin
 [product-screenshot]: images/screenshot.jpg
 [contact-screenshot]: images/contact.jpg
 [login-screenshot]: images/login.jpg
-[resource-screenshot]: images/resource.jpg
+[resource-screenshot]: images/ressource.jpg
 [index-screenshot]: images/index.jpg
