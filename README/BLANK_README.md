@@ -46,10 +46,6 @@
 
 [![Product Name Screen Shot][product-screenshot]](images/screenshot.jpg)
 
-This website 
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo`, `twitter_handle`, `email`
-
 
 ### Built With
 
@@ -66,14 +62,6 @@ This website
 
 To get a local copy up and running follow these simple steps.
 
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-```sh
-npm install npm@latest -g
-```
-
 ### Installation
  
 1. Clone the repository
@@ -86,18 +74,26 @@ git clone https://github.com/aieling/plantopedia.git
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+This website has for objective to present some plant species and describe their specifications. 
+In the section Exploring > Explore, you will find a page with an image and a description of species extracted from a database hosted by firebase. 
+The firebase configuration is given in the HTML pages inside the script tag.
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+[![Product Name Screen Shot][product-screenshot]](images/screenshot.jpg)
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+You will find a page named "Authentication" accessible via the navigator in the link "Login". 
+To be connected in this application, you have to use this username : "test@gmail.com" and the password is "123456".
 
+[![Product Name Screen Shot][product-screenshot]](images/login.jpg)
 
+In the Contact page, you can send a message, the username and the email is required.
 
-<!-- ROADMAP -->
-## Roadmap
+[![Product Name Screen Shot][product-screenshot]](images/contact.jpg)
 
-See the [open issues](https://github.com/github_username/repo/issues) for a list of proposed features (and known issues).
+In the ressource page (Exploring > Ressource), there's a video accessible directly in the website using the tag '<iframe>', there's also two types of table, one using bootstrap, and the other one using a personalized CSS and using a javascript form of collections.
+[![Product Name Screen Shot][product-screenshot]](images/ressource.jpg)
 
+In the home page, there's a carrousel developed with Bootstrap, which displayed 3 images that can help the user to navigate in the website. 
+[![Product Name Screen Shot][product-screenshot]](images/index.jpg)
 
 
 <!-- CONTRIBUTING -->
@@ -126,9 +122,6 @@ Project Link: [https://github.com/aieling/plantopedia](https://github.com/aielin
 
 * [Pexels](https://www.pexels.com/search/template/)
 * [PNAS](www.pnas.org)
-
-
-
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
