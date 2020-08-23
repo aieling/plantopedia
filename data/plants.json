@@ -1,0 +1,40 @@
+{
+    "plants":[
+        {
+            "clade":"Spermatophytes",
+            "division":"Gymnosperms",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "picture":"https://firebasestorage.googleapis.com/v0/b/plantopedia-ps.appspot.com/o/images%2Fgymnosperm.jpg?alt=media&token=a6a15f84-998c-4728-a27b-85cfb06cf614"
+        },
+        {
+            "clade":"Spermatophytes",
+            "division":"Angiosperms",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "picture":"https://firebasestorage.googleapis.com/v0/b/plantopedia-ps.appspot.com/o/images%2Fangiosperm.jpg?alt=media&token=a7f02e63-e78c-4a92-9335-2a0a4d34f99c"
+        },
+        {
+            "clade":"Tracheophytes",
+            "division":"Sphenopids",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "picture":"https://firebasestorage.googleapis.com/v0/b/plantopedia-ps.appspot.com/o/images%2Fhorsetails.jpg?alt=media&token=c7445aaa-a043-4f97-9c7e-34c493601a0f"
+        },
+        {
+            "clade":"Spermatophytes",
+            "division":"Pteridophyta",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "picture":"https://firebasestorage.googleapis.com/v0/b/plantopedia-ps.appspot.com/o/images%2Ffern.jpg?alt=media&token=a0d9fa76-b404-41eb-b1e3-acbce62ad799"
+        },
+        {
+            "clade":"Embryophyta",
+            "division":"Bryopsida",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "picture":"https://firebasestorage.googleapis.com/v0/b/plantopedia-ps.appspot.com/o/images%2Fmosses.jpg?alt=media&token=e86b32b1-47df-43ab-b592-31bce064bb19"
+        },
+        {
+            "clade":"Embryophyta",
+            "division":"Anthocerotophyta",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "picture":"https://firebasestorage.googleapis.com/v0/b/plantopedia-ps.appspot.com/o/images%2Fhornworts.jpg?alt=media&token=0f4a5038-3902-446f-88a2-31de64b77b9d"
+        }
+    ]
+}
