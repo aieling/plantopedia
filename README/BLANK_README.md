@@ -131,5 +131,5 @@ Project Link: [https://github.com/aieling/plantopedia](https://github.com/aielin
 [product-screenshot]: images/screenshot.jpg
 [contact-screenshot]: images/contact.jpg
 [login-screenshot]: images/login.jpg
-[resource-screenshot]: images/ressource.jpg
+[ressource-screenshot]: images/ressource.jpg
 [index-screenshot]: images/index.jpg
