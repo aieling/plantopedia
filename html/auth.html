@@ -1,69 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>PlantoPedia</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="./../styles/styles.css" >
-        
-    </head>
 
-    <body>
-        <body>
-           <header>
-            <div class="menu-container">
-              <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#"><img src="./../images/logo.png" alt="logo" id="logo" /></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-      
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
-                        Exploring
-                      </a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="./exploring.html">Explore</a>
-                        <a class="dropdown-item" href="./resources.html">Resources</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="./contacts.html">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="./auth.html">Login</a>
-                    </li>
-                  </ul>
-                </div>
-              </nav>
-            </div>
-          </header>
+<head>
+  <meta charset="utf-8">
+  <title>PlantoPedia</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./../styles/styles.css">
 
-          <div id = "content-auth">
-            <h1> Authentication </h1>
-            <form id="authForm" onsubmit="return login()">
-                <div class="form-group">
-                  <label for="exampleInputEmail1">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" >
-                  <small id="emailHelp" class="form-text text-muted" >We'll never share your email with anyone else.</small>
-                </div>
-                <div class="form-group">
-                  <label for="exampleInputPassword1">Password</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                </div>
-                <div class="form-group form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-              </form>
-          </div>
+</head>
+<body>
+  <header>
+    <div>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img src="./../images/logo.png" alt="logo" id="logo" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Exploring
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="./exploring.html">Explore</a>
+                <a class="dropdown-item" href="./resources.html">Resources</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contacts.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./auth.html">Login</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <div id="content-auth">
+    <h1> Authentication </h1>
+    <form id="authForm" onsubmit="return login()">
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+          placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+      </div>
+      <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
 
   <!-- Footer -->
   <footer class="page-footer font-small teal pt-4">
@@ -72,26 +73,31 @@
         <div class="col-sm-4 mt-md-0 mt-3">
           <ul>
             <li><a href="https://www.wikipedia.org/" target="_blank"> Wikipedia </a></li>
-            <li><a href="https://www.nsf.gov/news/classroom/biology.jsp"target="_blank"> National Science Foundation </a></li>
-            <li><a href="https://www.biologycorner.com/"target="_blank"> Biology Corner </a></li>
-            <li><a href="https://www.ibiology.org/?gclid=Cj0KCQjwhIP6BRCMARIsALu9LfkyZ6CdvSqq295iDhRUlmb8SjoDbtnGgn35l4gteSatMXHLXbVBVKkaAvlcEALw_wcB"target="_blank"> IBiology </a></li>
+            <li><a href="https://www.nsf.gov/news/classroom/biology.jsp" target="_blank"> National Science Foundation
+              </a></li>
+            <li><a href="https://www.biologycorner.com/" target="_blank"> Biology Corner </a></li>
+            <li><a
+                href="https://www.ibiology.org/?gclid=Cj0KCQjwhIP6BRCMARIsALu9LfkyZ6CdvSqq295iDhRUlmb8SjoDbtnGgn35l4gteSatMXHLXbVBVKkaAvlcEALw_wcB"
+                target="_blank"> IBiology </a></li>
           </ul>
         </div>
         <hr class="clearfix w-100 d-md-none pb-3">
         <div class="col-sm-4 mb-md-0 mb-3">
           <ul>
-            <li><a href="https://www.facebook.com/"target="_blank"> Facebook </a></li>
-            <li><a href="https://twitter.com/?lang=en"target="_blank"> Twitter </a></li>
-            <li><a href="https://www.instagram.com/"target="_blank"> Instagram </a></li>
-            <li><a href="https://www.linkedin.com/"target="_blank"> LinkedIn </a></li>
+            <li><a href="https://www.facebook.com/" target="_blank"> Facebook </a></li>
+            <li><a href="https://twitter.com/?lang=en" target="_blank"> Twitter </a></li>
+            <li><a href="https://www.instagram.com/" target="_blank"> Instagram </a></li>
+            <li><a href="https://www.linkedin.com/" target="_blank"> LinkedIn </a></li>
           </ul>
         </div>
         <div class="col-sm-4 mb-md-0 mb-3">
           <ul>
-            <li><a href="https://clarivate.com/webofsciencegroup/solutions/web-of-science/"target="_blank"> Clarivate </a></li>
-            <li><a href="https://www.sciencemag.org/"target="_blank"> Science Mag </a></li>
-            <li><a href="http://www.sciencewebpublishing.net/"target="_blank"> Science Web Publishing </a></li>
-            <li><a href="https://www.sciencedirect.com/topics/nursing-and-health-professions/web-of-science"target="_blank"> Science Direct </a></li>
+            <li><a href="https://clarivate.com/webofsciencegroup/solutions/web-of-science/" target="_blank"> Clarivate
+              </a></li>
+            <li><a href="https://www.sciencemag.org/" target="_blank"> Science Mag </a></li>
+            <li><a href="http://www.sciencewebpublishing.net/" target="_blank"> Science Web Publishing </a></li>
+            <li><a href="https://www.sciencedirect.com/topics/nursing-and-health-professions/web-of-science"
+                target="_blank"> Science Direct </a></li>
           </ul>
         </div>
       </div>
@@ -100,6 +106,7 @@
     <div class="footer-copyright text-center py-3">© 2020 Copyright
     </div>
   </footer>
+
   <!-- Scripts -->
   <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
@@ -121,19 +128,13 @@
   <script>
     // Firebase configuration
     var firebaseConfig = {
-      apiKey: "AIzaSyB9fbjD61bhU8AeINx29LZW1-neJw2lh-U",
-      authDomain: "plantopedia-ps.firebaseapp.com",
-      databaseURL: "https://plantopedia-ps.firebaseio.com",
-      projectId: "plantopedia-ps",
-      storageBucket: "plantopedia-ps.appspot.com",
-      messagingSenderId: "895479998391",
-      appId: "1:895479998391:web:72854a94c44da29e46aa32",
-      measurementId: "G-C5J76YV8QS"
+        // 
     };
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
   </script>
   <!-- External Javascript script-->
   <script type="text/javascript" src="./../script/script.js"></script>
-  </body>
+</body>
+
 </html>
