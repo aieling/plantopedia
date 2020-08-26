@@ -6,7 +6,7 @@
   <title>PlantoPedia</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="./../styles/styles.css">
+  <link rel="stylesheet" type="text/css" href="./styles/styles.css">
 
 </head>
 
@@ -17,7 +17,7 @@
       <header>
         <div class="menu-container">
           <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="./index.html"><img src="./../images/logo.png" alt="logo" id="logo" /></a>
+            <a class="navbar-brand" href="./index.html"><img src="./images/logo.png" alt="logo" id="logo" /></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
               aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -34,14 +34,14 @@
                     Exploring
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="./exploring.html">Explore</a>
-                    <a class="dropdown-item" href="./resources.html">Resources</a>
+                    <a class="dropdown-item" href="./html/exploring.html">Explore</a>
+                    <a class="dropdown-item" href="./html/resources.html">Resources</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./contacts.html">Contact</a>
+                  <a class="nav-link" href="./html/contacts.html">Contact</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./auth.html">Login</a>
+                  <a class="nav-link" href="./html/auth.html">Login</a>
                 </li>
               </ul>
             </div>
@@ -51,24 +51,24 @@
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img id="welcome-image" src="./../images/welcome.jpg" alt="plant in a lamp bulb" class="d-block w-100"
+              <img id="welcome-image" src="./images/welcome.jpg" alt="plant in a lamp bulb" class="d-block w-100"
                 alt="suricate">
               <div class="carousel-caption d-none d-md-block">
-                <h5><a href="./exploring.html">Click here if you want to explore</a></h5>
+                <h5><a href="./html/exploring.html">Click here if you want to explore</a></h5>
               </div>
             </div>
             <div class="carousel-item">
-              <img id="welcome-image" src="./../images/newsletters.jpg" alt="plant in a lamp bulb" class="d-block w-100"
+              <img id="welcome-image" src="./images/newsletters.jpg" alt="plant in a lamp bulb" class="d-block w-100"
                 alt="plant">
               <div class="carousel-caption d-none d-md-block">
-                <h5><a href="./contacts.html">Contact Us</a></h5>
+                <h5><a href="./html/contacts.html">Contact Us</a></h5>
               </div>
             </div>
             <div class="carousel-item">
-              <img id="welcome-image" src="./../images/flowers.jpg" alt="plant in a lamp bulb" class="d-block w-100"
+              <img id="welcome-image" src="./images/flowers.jpg" alt="plant in a lamp bulb" class="d-block w-100"
                 alt="flowers">
               <div class="carousel-caption d-none d-md-block">
-                <h5> <a href="./resources.html">Our ressources</a> </h5>
+                <h5> <a href="./html/resources.html">Our ressources</a> </h5>
               </div>
             </div>
           </div>
@@ -199,7 +199,14 @@
   <script>
     // Firebase configuration
     var firebaseConfig = {
-//
+      apiKey: "AIzaSyB9fbjD61bhU8AeINx29LZW1-neJw2lh-U",
+      authDomain: "plantopedia-ps.firebaseapp.com",
+      databaseURL: "https://plantopedia-ps.firebaseio.com",
+      projectId: "plantopedia-ps",
+      storageBucket: "plantopedia-ps.appspot.com",
+      messagingSenderId: "895479998391",
+      appId: "1:895479998391:web:72854a94c44da29e46aa32",
+      measurementId: "G-C5J76YV8QS"
     };
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
